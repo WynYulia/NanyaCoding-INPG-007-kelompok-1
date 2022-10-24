@@ -1,0 +1,64 @@
+#home {
+  position: absolute;
+  left: 0%;
+  right: 9.82%;
+  top: 0%;
+  bottom: 5.89%;
+  background: #f2f6ff;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+.h1-home {
+  position: absolute;
+  left: 7.27%;
+  right: 65.45%;
+  top: 17.68%;
+  bottom: 54.83%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #234cad;
+}
+
+.p-home {
+  position: absolute;
+  left: 7.27%;
+  right: 70.62%;
+  top: 49.26%;
+  bottom: 42.23%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #234cad;
+}
+
+/* .button-home {
+  position: absolute;
+  height: 36px;
+  left: 20.5%;
+  right: 20%;
+  top: calc(50% - 36px / 2 + 0.5px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #234cad;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 2px solid #234cad;
+  border-radius: 32.5px;
+} */
