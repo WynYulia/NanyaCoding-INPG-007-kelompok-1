@@ -145,3 +145,18 @@
   bottom: 85.43%;
   background: #234cad;
 }
+
+.cloud {
+  margin-top: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 5%;
+  color: #234CAD;
+}
+
+.img {
+  background-color:#f2f6ff ;
+  border-radius: 50%;
+  padding: 2%;
+  margin-left: 50px;
+}
