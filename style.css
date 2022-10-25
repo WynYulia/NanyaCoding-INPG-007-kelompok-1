@@ -168,6 +168,326 @@ body {
   margin-left: 50px;
 }
 
+.useour .container .row .card{
+  border-style: none;
+}
+
+.useour .container .row .card .card-content {
+  width: 575px;
+  height: 575px;
+  background-color: #F2F6FF;
+  border-radius: 60px;
+  border-style: none;
+}
+
+.useour .container .row .card .card-content .content-1 {
+  width: 438px;
+  height: 125px;
+  margin-top: 108px;
+  margin-left: 69px;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+
+.useour .container .row .card .card-content .content-1 .lingkaran {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  background-color: #F2F6FF;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.useour .container .row .card .card-content .content-1 .lingkaran .lingkaran-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background: #234CAD;
+  border: 2.5px solid #FFFFFF;
+  margin-left: 50px;
+}
+
+.useour .container .row .card .card-content .content-1 .lingkaran .lingkaran-2 p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;  
+  color: #F7FAFC;
+}
+
+.useour .container .row .card .card-content .content-1 .text .time {
+  position: absolute;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #234CAD;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-left: 380px;
+  margin-top: 45px;
+}
+
+.useour .container .row .card .card-content .content-1 .lingkaran p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-content .content-1 .text h2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #234CAD;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.useour .container .row .card .card-content .content-1 .text p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #234CAD;
+  margin-top: 80px;
+  margin-left: 240px;
+}
+
+.useour .container .row .card .card-content .content-2 {
+  width: 350px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 113px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.useour .container .row .card .card-content .content-2 .lingkaran-3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #F2F6FF;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.useour .container .row .card .card-content .content-2 .lingkaran-3 .lingkaran-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background: #234CAD;
+  border: 2.5px solid #FFFFFF;
+  margin-left: 50px;
+}
+
+.useour .container .row .card .card-content .content-2 .lingkaran-3 .lingkaran-4 p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;  
+  color: #F7FAFC;
+}
+
+.useour .container .row .card .card-content .content-2 .text-2 .time-2 {
+  position: absolute;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #234CAD;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-left: 300px;
+  margin-top: 35px;
+}
+
+.useour .container .row .card .card-content .content-2 .lingkaran-3 p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-content .content-2 .text-2 h2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234CAD;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.useour .container .row .card .card-content .content-2 .text-2 p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234CAD;
+  margin-top: 65px;
+  margin-left: 198px;
+}
+
+.useour .container .row .card .card-content .content-3 {
+  width: 262px;
+  height: 75px;
+  margin-top: 30px;
+  margin-left: 157px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.useour .container .row .card .card-content .content-3 .lingkaran-5 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  background-color: #F2F6FF;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.useour .container .row .card .card-content .content-3 .lingkaran-5 .lingkaran-6 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background: #234CAD;
+  border: 1.5px solid #FFFFFF;
+  margin-left: 35px;
+}
+
+.useour .container .row .card .card-content .content-3 .lingkaran-5 .lingkaran-6 p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4px;
+  line-height: 6px;
+  color: #F7FAFC;
+}
+
+.useour .container .row .card .card-content .content-3 .text-3 .time-3 {
+  position: absolute;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 10px;
+  color: #234CAD;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+
+.useour .container .row .card .card-content .content-3 .lingkaran-5 p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-content .content-3 .text-3 h2 {
+  position: absolute;
+  transform: translate(130%, 100%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-content .content-3 .text-3 p {
+  position: absolute;
+  transform: translate(60%, 200%);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 16px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-text {
+ margin-left: 10px;
+}
+
+.useour .container .row .card .card-text h1 {
+  margin-top: 20%;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-text p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #234CAD;
+}
+
+.useour .container .row .card .card-text .get {
+  width: 200px;
+  height: 65px;
+  border-radius: 32.5px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  border-style: solid;
+  background-color: #fff;
+  color: #234cad;
+  border-color: #234cad;
+}
+
 .footer {
   background-color: #fff;
   padding: 70px 0;
