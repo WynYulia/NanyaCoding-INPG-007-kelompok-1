@@ -41,6 +41,13 @@
   height: 50px;
   border-radius: 25px;
   border-style: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #234CAD;
 }
 
 
