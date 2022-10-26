@@ -488,6 +488,80 @@ body {
   border-color: #234cad;
 }
 
+.trans {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #234CAD;
+  margin-top: 10%;
+}
+
+.teks {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234CAD;
+}
+
+.sign {
+  background: #F2F6FF;
+  border-radius: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10%;
+}
+
+.our {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #234CAD;
+  padding-top: 75px;
+  margin-left: 336px;
+  margin-right: 335px;
+}
+
+.paragraf {
+  padding-top: 25px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #234CAD;
+}
+
+.input {
+  margin-right: 370px;
+  margin-left: 370px;
+}
+
+.control {
+  margin-bottom: 75px;
+  height: 60px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  border-radius: 17.5px;
+  padding-left: 25px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+
+
+
+
 .footer {
   background-color: #fff;
   padding: 70px 0;
