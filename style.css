@@ -166,7 +166,7 @@ body {
 .upload-h2 {
   position: absolute;
   height: 21px;
-  left: 0%;
+  left: 90px;
   right: 0%;
   top: calc(50% - 21px / 2 - 12px);
   font-family: "Nunito";
@@ -180,7 +180,7 @@ body {
 .upload-p {
   position: absolute;
   height: 21px;
-  left: 0%;
+  left: 90px;
   right: 42.68%;
   top: calc(50% - 21px / 2 + 12px);
   font-family: "Nunito";
@@ -192,12 +192,34 @@ body {
 }
 
 .upload-pict {
-  position: absolute;
-  left: 43.27%;
-  right: 53.38%;
-  top: 27.33%;
-  bottom: 65.14%;
+  position: relative;
+  left: 23px;
+  top: 20px;
+  bottom: 65px;
   background: #f2f6ff;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.upload-half {
+  position: absolute;
+  left: 44.95%;
+  right: 52.87%;
+  top: 0%;
+  bottom: 3.9%;
+}
+
+.upload-picture {
+  position: absolute;
+  left: 30.27%;
+  right: 53.38%;
+  top: 17.33%;
+  bottom: 65.14%;
 }
 
 .cloud {
