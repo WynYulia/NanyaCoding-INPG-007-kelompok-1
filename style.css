@@ -558,8 +558,81 @@ body {
   padding-bottom: 18px;
 }
 
+.element {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: #f2f6ff;
+  text-align: center;
+  height: 575px;
+  width: 1240px;
+  left: 0px;
+  top: 233px;
+  border-radius: 60px;
+}
 
+.col {
+  margin-left: 25px;
+  
+}
 
+.coll {
+  background-color: #fff;
+  margin-top: 270px;
+  margin-left: 7px;
+  height: 100px;
+  width: 350px;
+  left: 107px;
+  top: 503px;
+  border-radius: 25px;
+  padding: 26px;
+}
+
+.coll h1 {
+  font-family: 'Nunito';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #234CAD;
+}
+
+.coll p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234CAD;
+  left: 0px;
+  top: 24px;
+  text-align: left;
+  border-radius: nullpx;
+
+}
+
+.coll1 {
+  margin-top: 25px;
+  margin-bottom: 105px;
+  margin-left: 282px;
+  background-color: #fff;
+  height: 75px;
+  width: 75px;
+  left: 382px;
+  top: 628px;
+  border-radius: 20px;
+}
+
+.coll1 img {
+  height: 27.20516014099121px;
+  width: 29.700000762939453px;
+  left: 405px;
+  top: 652px;
+  border-radius: 0px;
+  text-align: center;
+  margin: 24px;
+
+}
 
 
 .footer {
