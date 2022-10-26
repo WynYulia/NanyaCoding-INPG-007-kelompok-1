@@ -628,6 +628,23 @@ body {
   color: #234cad;
 }
 
+/* .h1-increase {
+  position: absolute;
+  left: 0%;
+  right: 64.9%;
+  top: 2300px;
+  bottom: 52%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #234cad;
+  height: 168px;
+  width: 365px;
+  margin-top: 500px;
+} */
+
 .sign {
   background: #f2f6ff;
   border-radius: 60px;
