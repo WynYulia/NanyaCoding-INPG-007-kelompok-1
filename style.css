@@ -116,7 +116,7 @@ body {
   color: #234cad;
   border-color: #234cad;
   margin-left: 100px;
-  margin-top: 450px;
+  margin-top: 400px;
   position: absolute;
 }
 
@@ -208,10 +208,10 @@ body {
 
 .upload-half {
   position: absolute;
-  left: 44.95%;
+  left: 50.95%;
   right: 52.87%;
   top: 0%;
-  bottom: 3.9%;
+  bottom: 0%;
 }
 
 .upload-picture {
@@ -269,7 +269,133 @@ body {
   left: 22.09%;
   right: 21.82%;
   top: 17.18%;
-  bottom: 71.36%;
+  bottom: 90.36%;
+}
+
+.meeting {
+  position: absolute;
+  left: 41.82%;
+  right: 38.11%;
+  top: 42.72%;
+  bottom: 31.1%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.ab {
+  position: absolute;
+  left: 63.71%;
+  right: 10.84%;
+  top: 42.72%;
+  bottom: 40.92%;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.js {
+  position: absolute;
+  left: 41.82%;
+  right: 32.73%;
+  top: 73%;
+  bottom: 10.64%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.saved {
+  position: absolute;
+  left: 76.91%;
+  right: 3.64%;
+  top: 63.18%;
+  bottom: 20.46%;
+  background: #ffffff;
+  border-radius: 25px;
+  width: 350px;
+  height: 100px;
+}
+
+.saved-icon {
+  position: absolute;
+  left: 10%;
+  right: 24.8%;
+  top: 26%;
+  bottom: 10%;
+}
+
+.saved-background {
+  left: 7.36%;
+  right: 23.27%;
+  top: 6.45%;
+  bottom: 23.73%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.saved-h2 {
+  position: absolute;
+  height: 21px;
+  left: 0%;
+  right: 49.11%;
+  top: 20%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+  width: 114px;
+  height: 21px;
+  margin-left: 90px;
+}
+
+.saved-p {
+  position: absolute;
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  top: 45%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+  width: 224px;
+  height: 21px;
+  margin-left: 90px;
+}
+
+.message {
+  position: absolute;
+  left: 69.09%;
+  right: 25.45%;
+  top: 83.63%;
+  bottom: 4.09%;
+  background: #ffffff;
+  border-radius: 20px;
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 30px;
+}
+
+.message-icon {
+  position: absolute;
+  left: 30.76%;
+  right: 27.08%;
+  top: 30.56%;
+  bottom: 7.99%;
+  width: 29.7px;
+  height: 27.21px;
 }
 
 .cloud {
@@ -628,7 +754,7 @@ body {
   color: #234cad;
 }
 
-/* .h1-increase {
+.h1-increase {
   position: absolute;
   left: 0%;
   right: 64.9%;
@@ -642,8 +768,24 @@ body {
   color: #234cad;
   height: 168px;
   width: 365px;
-  margin-top: 500px;
-} */
+  margin-top: 10px;
+}
+
+.p-increase {
+  position: absolute;
+  left: 0%;
+  right: 70.77%;
+  top: 52.35%;
+  bottom: 38.61%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #234cad;
+  font-weight: 400;
+  margin-top: 2100px;
+}
 
 .sign {
   background: #f2f6ff;
