@@ -8,6 +8,11 @@ body {
   background-color: #ffffff;
 }
 
+.all {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .navbar {
   background-color: #fff;
   position: absolute;
@@ -399,9 +404,7 @@ body {
 }
 
 .cloud {
-  margin-top: 50%;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 60%;
   margin-bottom: 5%;
   color: #234cad;
 }
@@ -790,8 +793,6 @@ body {
 .sign {
   background: #f2f6ff;
   border-radius: 60px;
-  margin-left: 100px;
-  margin-right: 100px;
   margin-top: 10%;
 }
 
@@ -837,13 +838,12 @@ body {
 }
 
 .element {
-  margin-right: 50px;
-  margin-left: 50px;
+  
   margin-top: 100px;
   background-color: #f2f6ff;
   text-align: center;
   height: 575px;
-  width: 1240px;
+  width: 100%;
   left: 0px;
   top: 233px;
   border-radius: 60px;
@@ -863,6 +863,34 @@ body {
   top: 503px;
   border-radius: 25px;
   padding: 26px;
+  display: flex;
+}
+
+.img1 {
+  height: 60px;
+  width: 60px;
+  left: 127px;
+  top: 523px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+
+}
+.img1 img {
+  height: 20px;
+  width: 17px;
+  left: 149px;
+  top: 543px;
+  border-radius: 50%px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.mess {
+  margin-left: 20px;
+  width: 100%;
 }
 
 .coll h1 {
@@ -995,8 +1023,8 @@ body {
 .footer .container {
   width: 941px;
   height: 166px;
-  margin-left: 249px;
-  margin-right: 250px;
+  margin-left: 150px;
+  margin-right: 100px;
 }
 
 .footer-col h4 {
