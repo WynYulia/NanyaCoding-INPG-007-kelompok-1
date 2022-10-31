@@ -282,6 +282,39 @@ body {
   border-radius: 25px;
 }
 
+.meeting-pict {
+  margin-left: 28px;
+  margin-top: 50px;
+}
+
+.h2-meeting {
+  position: absolute;
+  height: 21px;
+  left: 30%;
+  right: 11.86%;
+  top: 30%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+}
+
+.p-meeting {
+  position: absolute;
+  height: 21px;
+  left: 30%;
+  right: 0%;
+  top: 45%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+
 .ab {
   position: absolute;
   left: 63.71%;
@@ -292,6 +325,64 @@ body {
   border-radius: 20px;
 }
 
+.ab-logo {
+  position: absolute;
+  height: 24px;
+  left: 10.33%;
+  right: 28.33%;
+  top: calc(50% - 24px / 2);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #234cad;
+}
+
+.ab-name {
+  position: absolute;
+  height: 21px;
+  left: 25%;
+  right: 38.46%;
+  top: calc(50% - 21px / 2 - 12px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+}
+
+.ab-p {
+  position: absolute;
+  height: 21px;
+  left: 25%;
+  right: 0%;
+  top: calc(50% - 21px / 2 + 12px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+
+.ab-time {
+  position: absolute;
+  height: 13px;
+  left: 83.48%;
+  right: 0%;
+  top: calc(50% - 13px / 2 - 16px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
 .js {
   position: absolute;
   left: 41.82%;
@@ -300,6 +391,64 @@ body {
   bottom: 10.64%;
   background: #ffffff;
   border-radius: 25px;
+}
+
+.js-logo {
+  position: absolute;
+  height: 24px;
+  left: 10%;
+  right: 35%;
+  top: calc(50% - 24px / 2);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #234cad;
+}
+
+.js-name {
+  position: absolute;
+  height: 21px;
+  left: 30%;
+  right: 54.19%;
+  top: calc(50% - 21px / 2 - 12px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #234cad;
+}
+
+.js-p {
+  position: absolute;
+  height: 21px;
+  left: 30%;
+  right: 0%;
+  top: 0px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #234cad;
+}
+
+.js-time {
+  position: absolute;
+  height: 13px;
+  left: 80.43%;
+  right: 0%;
+  top: calc(50% - 13px / 2 - 16px);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #234cad;
+  mix-blend-mode: normal;
+  opacity: 0.75;
 }
 
 .saved {
@@ -754,6 +903,22 @@ body {
   color: #234cad;
 }
 
+.container-inc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.container-inc .h1-increase {
+  width: 200px;
+}
+
+.container-inc .p-increase {
+  width: 25px;
+  margin-bottom: 4rem;
+}
+
 .h1-increase {
   position: absolute;
   left: 0%;
@@ -768,7 +933,8 @@ body {
   color: #234cad;
   height: 168px;
   width: 365px;
-  margin-top: 10px;
+  margin-top: 200px;
+  margin-left: 100px;
 }
 
 .p-increase {
@@ -784,7 +950,30 @@ body {
   line-height: 26px;
   color: #234cad;
   font-weight: 400;
-  margin-top: 2100px;
+  margin-top: 2500px;
+  margin-left: 100px;
+}
+
+.button-increase {
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.button-increase .get {
+  width: 200px;
+  height: 65px;
+  border-radius: 32.5px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  border-style: solid;
+  background-color: #fff;
+  color: #234cad;
+  border-color: #234cad;
+  text-decoration: none;
 }
 
 .sign {
