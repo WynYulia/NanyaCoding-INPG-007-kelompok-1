@@ -6,6 +6,7 @@
   font-family: "Nunito", sans-serif;
 }
 
+
 body {
   background-color: #ffffff;
 }
@@ -49,6 +50,35 @@ body {
 }
 
 .signup {
+  background-color: #f2f6ff;
+  width: 135px;
+  height: 50px;
+  border-radius: 25px;
+  border-style: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #234cad;
+}
+
+#profile-btn {
+  width: 135px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  color: #234cad;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #234cad;
+}
+
+#logout-btn {
   background-color: #f2f6ff;
   width: 135px;
   height: 50px;

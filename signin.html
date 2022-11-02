@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="bg_login_register" class=""></section>
+    <section id="login_section">
+        <h2>SIGNIN FORM</h2>
+        <form id="form_login" role="form" onsubmit="signIn(event);" autocomplete="off">
+            <div class="form-group">
+                <input type="email" name="email" id="login_email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="pwd" id="login_password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button class="btn_action" type="submit">Sign In</button>
+            </div>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a> here</p>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
