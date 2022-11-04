@@ -35,76 +35,89 @@ const signUp = (e) => {
         );
         
         if (username.length < 5 || username.length > 10) {
-            alert("Username must be 5-10 characters");
+          return errorPop("Username must be 5-10 characters");
         }
     
-        let usernameContainsNumber = false;
-        let usernameContainsAlfabet = false;
-        let usernameContainsOther = false;
+        let usernamesNumber = false;
+        let usernameAlfabet = false;
+        let usernameOther = false;
         for (i = 0; i < username.length; i++) {
           let code = username.charCodeAt(i);
           if (code > 47 && code < 58) {
-            usernameContainsNumber = true;
+            usernamesNumber = true;
           } else if ((code > 64 && code < 91) || (code > 96 && code < 123)) {
-            usernameContainsAlfabet = true;
+            usernameAlfabet = true;
           } else {
-            usernameContainsOther = true;
+            usernameOther = true;
           }
         }
-        if (usernameContainsOther == true) {
-          return alert(
-            "Username no spaces and other characters"
-          );
+        if (usernameOther == true) {
+          return errorPop("Username no spaces and other characters");
         }
-        if (!usernameContainsAlfabet || !usernameContainsNumber) {
-          return alert("Username must contain letters and numbers");
+        if (!usernameAlfabet || !usernamesNumber) {
+          return errorPop("Username must contain letters and numbers");
         }
 
         if (pwd.length < 6 || pwd.length > 12) {
-            return alert("Password length must be 6-12 characters");
+          return errorPop("Password length must be 6-12 characters");
           }
-          let passwordContainsNumber = false;
-          let passwordContainsAlfabet = false;
-          let passwordContainsOther = false;
+          let passwordNumber = false;
+          let passwordAlfabet = false;
+          let passwordOther = false;
           let passwordCapitalAflabet = 0;
           for (i = 0; i < pwd.length; i++) {
             let code = pwd.charCodeAt(i);
             if (code > 47 && code < 58) {
-              passwordContainsNumber = true;
+              passwordNumber  = true;
             } else if (code > 96 && code < 123) {
-              passwordContainsAlfabet = true;
+              passwordAlfabet = true;
             } else if (code > 64 && code < 91) {
               passwordCapitalAflabet = passwordCapitalAflabet + 1;
             } else {
-              passwordContainsOther = true;
+              passwordOther = true;
             }
           }
-          if (passwordContainsOther == true) {
-            return alert(
-              "Password can not contain spaces and special characters"
-            );
+          if (passwordOther == true) {
+            return errorPop("Password can not contain spaces and special characters");
           }
-          if (!passwordContainsAlfabet ||!passwordContainsNumber ||passwordCapitalAflabet != 1) {
-            return alert(
-              "Password must contain letters, numbers and one capital letter"
-            ) 
+          if (!passwordAlfabet ||!passwordNumber  ||passwordCapitalAflabet != 1) {
+            return errorPop("Password must contain letters, numbers and one capital letter");
         }
 
         
           if (pwd_confrim != pwd) {
-            return alert("Password does not match");
+            return errorPop("Password does not match");
           }
     
 
     if(!exist){
         formData.push({ username, email, pwd, pwd_confrim });
         localStorage.setItem('formData', JSON.stringify(formData));
+        swal({
+
+          title: "Succeed",
+ 
+          text: "Account Created Successfully",
+ 
+          icon: "success",
+ 
+          button: true
+ 
+      });
         document.querySelector('form').reset();
-        document.getElementById('username').focus();
-        Succeed();
     }
     else{
-        alert("Ooopppssss... Duplicate found!!!\nYou have already sigjned up");
+      swal({
+
+        title: "Error",
+
+        text: "Ooopppssss... Duplicate found!!!\nYou have already signed up",
+
+        icon: "error",
+
+        button: true
+
+    });
     }
     e.preventDefault();
 }
@@ -115,7 +128,17 @@ const signIn = (e) => {
     let exist = formData.length && 
     JSON.parse(localStorage.getItem('formData')).some(data => data.email === email && data.pwd === pwd);
     if(!exist){
-        alert("Incorrect login credentials");
+      swal({
+
+        title: "Error",
+
+        text: "Invalid email or password",
+
+        icon: "error",
+
+        button: true
+
+    });
     }
     else{
         localStorage.setItem('current_user', JSON.stringify(email))
@@ -129,33 +152,18 @@ logoutBtn.addEventListener('click', () => {
     location.reload()
 })
 
-function Succeed() {
+function errorPop(message) {
 
-    swal({
+      swal({
 
-         title: "Succeed",
-
-         text: "Account Created Successfully",
-
-         icon: "success",
-
-         button: true
-
-     });
-
- }
-function errorPop() {
-
-    swal({
-
-         title: "Error",
-
-         text: "Error",
-
-         icon: "error",
-
-         button: true
-
-     });
+              title: "Error",
+      
+              text: message,
+      
+              icon: "error",
+      
+              button: true
+      
+          });
 
  }

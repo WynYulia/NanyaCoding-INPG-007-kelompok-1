@@ -11,7 +11,9 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
 
   <title>NanyaCoding</title>
+</head>
 
+<body>
   <nav class="navbar navbar-expand-lg" style="background-color: #FFFFFF;">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,17 +36,14 @@
           </li>
         </ul>
         <div>
-          <a role="button" class="" id="profile-btn" href="#"></a>
-          <a role="button" class="" id="logout-btn" href="#">Logout</a>
-          <a role="button" class="" id="login-btn" href="signin.html">Login</a>
-          <a role="button" class="" id="signup-btn" href="signup.html">Sign up</a>
+          <button id="profile-btn" href="#"></button>
+          <button id="logout-btn" href="#">Logout</button>
+          <button  onclick="window.location.href='signin.html'" id="login-btn">Login</button>
+          <button onclick="window.location.href='signup.html'" id="signup-btn" href="signup.html">Sign up</button>
         </div>
       </div>
     </div>
   </nav>
-</head>
-
-<body>
   <div class="container-fluid">
     <section class="home" id="home">
       <div class="container">
