@@ -960,7 +960,7 @@ body {
 }
 
 .h1-increase {
-  position: absolute;
+  /* position: absolute; */
   left: 0%;
   right: 64.9%;
   top: 2500px;
@@ -1014,6 +1014,107 @@ body {
   color: #234cad;
   border-color: #234cad;
   text-decoration: none;
+}
+
+.pricing {
+  margin-top: 20px ;
+}
+
+.title {
+  padding-top: 50px;
+  font-family: 'Nunito';
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color:#234cad;
+}
+
+.pt{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Nunito;
+  font-size: 16px;
+  text-align: center;
+  color:#234CAD;
+}
+
+.pricing-table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+#body_text_price1 {
+font-family: Nunito;
+font-size: 30px;
+  font-weight: bold;
+text-align: center;
+  margin-top: 30px;
+color:#234CAD;
+}
+#body_text_price2 {
+font-family: Nunito;
+font-size: 20px;
+  font-weight: bold;
+text-align: center;
+  margin-top: 10px;
+color:#234CAD;
+}
+.pricing-card{
+  flex: 1;
+  width: 380px;
+  height: 380px;
+  background-color: #F2F6FF;
+  margin: 20px 10px;
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  transition: .3s linear;
+  border-radius: 60px;
+  transition: .4s linear;     
+}
+.pricing-card:hover {
+  outline: none;
+  box-shadow: 0 0 0 4px #234cad;
+} 
+.pricing-card-hover{
+  padding: 0px 100%;
+  transition: .4s linear;
+}
+.pricing-card:hover .pricing-card-hover {
+  outline: none;
+  box-shadow: 0 0 0 26em #fff;
+  border-color: #234CAD;
+} 
+.price{
+  font-size: 56px;
+  font-weight: bold;
+  color: #234CAD;
+  margin: 20px 0;
+} 
+.order-btn {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 3px solid #F2F6FF;
+  background-color: #fff;
+  color: #234cad;
+  padding: 20px 80px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: .4s linear;
+}
+.order-btn:hover {
+  border-color: #234cad;
+  content: "Get Sarted";
+}
+@media screen and (max-width:1100px)
+{
+  .pricing-card{
+      flex: 50%;
+  }
 }
 
 .sign {
@@ -1247,7 +1348,7 @@ body {
 .footer .container {
   width: 941px;
   height: 166px;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-right: 100px;
 }
 
@@ -1381,3 +1482,4 @@ body {
     width: 100%;
   }
 }
+
