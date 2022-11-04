@@ -1273,6 +1273,99 @@ body {
   border: 1px solid;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: #234cad;
+  opacity: 0;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+  z-index: 20px;
+}
+
+.back-to-top.show {
+  bottom: 20px;
+  opacity: 1;
+}
+
+.back-to-top svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.fakeLoader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 9999999999;
+}
+
+.spinner6 {
+  position: fixed;
+  width: 50px;
+  height: 35px;
+  top: calc(50% - 35px / 2);
+  left: calc(50% - 50px / 2);
+}
+
+.spinner6 div {
+  background-color: #fff;
+  height: 100%;
+  width: 5px;
+  margin-left: 2px;
+  display: inline-block;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner6 .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner6 .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.spinner6 .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner6 .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@keyframes stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+
+  20% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;

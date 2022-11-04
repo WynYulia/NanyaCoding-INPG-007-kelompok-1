@@ -1,3 +1,24 @@
+var backToTop = document.querySelector(".back-to-top");
+
+window.addEventListener("scroll", () => {
+  if (this.scrollY >= 450) {
+    backToTop.classList.add("show");
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0 });
+    });
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
+
+$(document).ready(function () {
+  $.fakeLoader({
+    bgColor: "#2B4865",
+    spinner: "spinner6",
+  });
+});
+
 const loginBtn = document.getElementById('login-btn');
 const signupBtn = document.getElementById('signup-btn');
 const profileBtn = document.getElementById('profile-btn');
