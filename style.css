@@ -18,7 +18,7 @@ body {
 
 .navbar {
   background-color: #fff;
-  position: absolute;
+  /* position: absolute; */
   width: 1240px;
   height: 50px;
   margin-left: 100px;
@@ -31,11 +31,15 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 29px;
+  /* line-height: 29px; */
   color: #234cad;
 }
 
-.login {
+.auth-links a{
+  text-decoration: none;
+}
+
+#login-btn {
   width: 135px;
   height: 50px;
   border-radius: 25px;
@@ -49,7 +53,7 @@ body {
   border-color: #234cad;
 }
 
-.signup {
+#signup-btn {
   background-color: #f2f6ff;
   width: 135px;
   height: 50px;
@@ -65,15 +69,15 @@ body {
 }
 
 #profile-btn {
-  width: 135px;
-  height: 50px;
+   width: 135px;
+  height: 50px; 
   border-radius: 25px;
   font-size: 18px;
   font-weight: 700;
   line-height: 29px;
   text-align: center;
   color: #234cad;
-  background-color: #fff;
+  background-color: #fff; 
   border-style: solid;
   border-color: #234cad;
 }
@@ -1266,6 +1270,10 @@ body {
   font-size: 18px;
   line-height: 29px;
   color: #234cad;
+}
+
+.auth-buttons{
+  border: 1px solid;
 }
 
 @media (max-width: 767px) {
