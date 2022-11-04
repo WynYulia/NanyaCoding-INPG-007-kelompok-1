@@ -32,7 +32,7 @@ body {
   color: #234cad;
 }
 
-.auth-links a{
+.auth-links a {
   text-decoration: none;
 }
 
@@ -66,15 +66,15 @@ body {
 }
 
 #profile-btn {
-   width: 135px;
-  height: 50px; 
+  width: 135px;
+  height: 50px;
   border-radius: 25px;
   font-size: 18px;
   font-weight: 700;
   line-height: 29px;
   text-align: center;
   color: #234cad;
-  background-color: #fff; 
+  background-color: #fff;
   border-style: solid;
   border-color: #234cad;
 }
@@ -1017,7 +1017,7 @@ body {
 }
 
 .pricing {
-  margin-top: 20px ;
+  margin-top: 20px;
 }
 
 .title {
@@ -1026,42 +1026,45 @@ body {
   font-size: 48px;
   font-weight: bold;
   text-align: center;
-  color:#234cad;
+  color: #234cad;
 }
 
-.pt{
+.pt {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: Nunito;
   font-size: 16px;
   text-align: center;
-  color:#234CAD;
+  color: #234CAD;
 }
 
-.pricing-table{
+.pricing-table {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
   height: auto;
 }
+
 #body_text_price1 {
-font-family: Nunito;
-font-size: 30px;
+  font-family: Nunito;
+  font-size: 30px;
   font-weight: bold;
-text-align: center;
+  text-align: center;
   margin-top: 30px;
-color:#234CAD;
+  color: #234CAD;
 }
+
 #body_text_price2 {
-font-family: Nunito;
-font-size: 20px;
+  font-family: Nunito;
+  font-size: 20px;
   font-weight: bold;
-text-align: center;
+  text-align: center;
   margin-top: 10px;
-color:#234CAD;
+  color: #234CAD;
 }
-.pricing-card{
+
+.pricing-card {
   flex: 1;
   width: 380px;
   height: 380px;
@@ -1072,27 +1075,32 @@ color:#234CAD;
   color: #ffffff;
   transition: .3s linear;
   border-radius: 60px;
-  transition: .4s linear;     
+  transition: .4s linear;
 }
+
 .pricing-card:hover {
   outline: none;
   box-shadow: 0 0 0 4px #234cad;
-} 
-.pricing-card-hover{
+}
+
+.pricing-card-hover {
   padding: 0px 100%;
   transition: .4s linear;
 }
+
 .pricing-card:hover .pricing-card-hover {
   outline: none;
   box-shadow: 0 0 0 26em #fff;
   border-color: #234CAD;
-} 
-.price{
+}
+
+.price {
   font-size: 56px;
   font-weight: bold;
   color: #234CAD;
   margin: 20px 0;
-} 
+}
+
 .order-btn {
   display: inline-block;
   margin-bottom: 50px;
@@ -1106,14 +1114,15 @@ color:#234CAD;
   font-weight: bold;
   transition: .4s linear;
 }
+
 .order-btn:hover {
   border-color: #234cad;
   content: "Get Sarted";
 }
-@media screen and (max-width:1100px)
-{
-  .pricing-card{
-      flex: 50%;
+
+@media screen and (max-width:1100px) {
+  .pricing-card {
+    flex: 50%;
   }
 }
 
@@ -1200,6 +1209,7 @@ color:#234CAD;
   border-radius: 50%;
   background-color: #f2f6ff;
 }
+
 .img1 img {
   height: 20px;
   width: 17px;
@@ -1370,7 +1380,7 @@ color:#234CAD;
   color: #234cad;
 }
 
-.auth-buttons{
+.auth-buttons {
   border: 1px solid;
 }
 
@@ -1472,6 +1482,7 @@ color:#234CAD;
     width: 50%;
     margin-bottom: 40px;
   }
+
   .container {
     margin-bottom: -100px;
   }
@@ -1482,4 +1493,3 @@ color:#234CAD;
     width: 100%;
   }
 }
-
