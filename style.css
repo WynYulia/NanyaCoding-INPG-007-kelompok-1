@@ -1300,13 +1300,21 @@ body {
 .control {
   margin-bottom: 75px;
   height: 60px;
-  width: 400px;
+  width: 500px;
   left: 0px;
   top: 0px;
   border-radius: 17.5px;
   padding-left: 25px;
   padding-top: 18px;
   padding-bottom: 18px;
+  border: #fff;
+}
+
+.btn {
+  height: 60px;
+  background-color: #234cad;
+  color: #fff;
+  border: #fff;
 }
 
 .element {
@@ -1499,9 +1507,7 @@ body {
   margin-top: 25px;
 }
 
-.colll5 {
-  margin-top: 28px;
-}
+
 
 .col6 {
   height: 160px;
