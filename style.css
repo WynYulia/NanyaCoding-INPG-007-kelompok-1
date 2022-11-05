@@ -1337,6 +1337,10 @@ body {
   display: flex;
 }
 
+.colll1 {
+  margin-bottom: 20px;
+}
+
 .img1 {
   height: 60px;
   width: 60px;
@@ -1445,6 +1449,12 @@ body {
   border-radius: 25px;
 }
 
+.colll2 {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .col3 {
   background-color: #fff;
   height: 160px;
@@ -1453,6 +1463,12 @@ body {
   top: 388px;
   border-radius: 25px;
   margin-top: 25px;
+}
+
+.colll3 {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 2px;
 }
 
 .col4 {
@@ -1466,6 +1482,13 @@ body {
   margin-left: 25px;
 }
 
+.colll4 {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 2px;
+  text-align: right;
+}
+
 .col5 {
   height: 100px;
   width: 350px;
@@ -1474,6 +1497,10 @@ body {
   border-radius: 20px;
   background-color: #fff;
   margin-top: 25px;
+}
+
+.colll5 {
+  margin-top: 28px;
 }
 
 .col6 {
